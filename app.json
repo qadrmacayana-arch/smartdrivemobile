@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "SmartDrive Mobile",
+    "slug": "smartdrivemobile",
+    "scheme": "smartdrive",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.smartdrive.mobile",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "com.smartdrive.mobile"
+    },
+    "plugins": [
+      "expo-font"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "84b0a497-b7db-4e87-81a2-60a67bf31c55"
+      }
+    }
+  }
+}
